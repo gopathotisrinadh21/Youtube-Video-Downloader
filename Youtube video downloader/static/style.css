@@ -1,0 +1,65 @@
+body {
+    background-image: url("a.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1,h2,h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: darkblue;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;    
+}
+input[type="text"] {
+    font-size: 24px; 
+    text-align: center;
+    width: 400px; 
+}
+input[type="submit"] {
+    font-size: 24px; 
+    text-align: center;
+    width: 200px; 
+}
+.hi{
+background-color: transparent;
+}
+.sri{
+    text-align: center;
+    font-size: 20px;
+}
+.srinadh{
+font-size: 15px;
+background-color: transparent;
+}
+.submit{
+    border-radius: 4px;
+}
+.hi {
+    border: 1px solid #3c79bb; /* Add a border to the element */
+    border-radius: 5px;     /* Add rounded corners */
+    padding: 10px;          /* Add some padding for spacing */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition effect */
+    border-width: 4px;
+  }
+
+.hi:hover{
+    background-color: #007bff; /* Change background color on hover */
+    border-color: #0056b3;     /* Change border color on hover */
+    color: #9da7b0;             /* Change text color on hover */
+}
+.hello{
+    background-color: transparent;
+    border: 1px solid #3c79bb; /* Add a border to the element */
+    border-radius: 5px;     /* Add rounded corners */
+    padding: 10px;          /* Add some padding for spacing */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition effect */
+    border-width: 4px;
+}

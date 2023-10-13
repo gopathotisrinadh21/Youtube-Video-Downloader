@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <title>YouTube Downloader</title>
+</head>
+<body>
+    <form action="/download" method="post">
+        <h1>YouTube Downloader</h1>
+        <p class="sri">Download any YouTube video by pasting the URL of the video</p>
+        <input class="hello" type="text" name="url" placeholder="Enter YouTube video URL"><br>
+        <label for="resolution"><h3>Select Resolution:</h3></label>
+        <select class="srinadh" name="resolution" id="resolution">
+            <option value="highest">Highest Quality</option>
+            <option value="720p">720p</option>
+            <option value="480p">480p</option>
+        </select><br>
+        <input class="hi" type="submit" value="Download">
+        <h3>See the downloaded video in your Downloads folder</h3>
+    </form>
+</body>
+</html>
